@@ -1,5 +1,5 @@
 import { Schema, model, models } from "mongoose";
-import { iAdminData, iContentData } from "../interface";
+import { iContentData } from "../interface";
 import { timeStamp } from "console";
 
 

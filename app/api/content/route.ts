@@ -1,5 +1,4 @@
 import { dbConfig } from "@/utils/dbConfig"
-import adminmodel from "@/utils/model/adminmodel"
 import comtentmodel from "@/utils/model/contentmodel"
 import { NextRequest, NextResponse } from "next/server"
 

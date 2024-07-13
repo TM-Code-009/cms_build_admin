@@ -1,12 +1,5 @@
 import { Document } from "mongoose";
 
-export interface iAdmin{
-    name: string;
-    email: string;
-    password: string;
-}
-
-export interface iAdminData extends iAdmin , Document{}
 
 
 export interface iContent{
