@@ -5,7 +5,7 @@ import React from "react";
 
 const page = async() => {
 
-  const res = await fetch("http://localhost:3000/api/content", {
+  const res = await fetch("https://vercel.com/api/content", {
     cache: "no-cache",
     next: {
       tags: ["content"],
@@ -28,7 +28,7 @@ const page = async() => {
 
     console.log(title);
       
-    const newurl = "http://localhost:3000/api/content"
+    const newurl = "https://vercel.com/api/content"
 
     await fetch(newurl,{
       method: 'POST',
@@ -62,7 +62,7 @@ const page = async() => {
 
     console.log(title);
       
-    const newurl = "http://localhost:3000/api/content"
+    const newurl = "https://vercel.com/api/content"
 
     await fetch(`${newurl}/${data?.data[0]._id}`,{
       method: 'PATCH',
