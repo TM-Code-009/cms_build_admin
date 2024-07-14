@@ -5,7 +5,7 @@ import React from "react";
 
 const page = async() => {
 
-  const res = await fetch("https://vercel.com/api/content", {
+  const res = await fetch("https://vercel.com/cms-build-admin-uhy2-c4zex6qy5/api/content", {
     cache: "no-cache",
     next: {
       tags: ["content"],
